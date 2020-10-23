@@ -17,4 +17,3 @@ from .vmhighpass import VMHighPass
 from .vmraw import VMRaw
 from .raycast import raycast
 from .freqspectrum import FreqSpectrum
-from .vmpc import VMPlaceCell
