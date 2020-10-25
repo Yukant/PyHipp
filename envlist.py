@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 24 17:04:28 2020
-
-@author: Yukan
-"""
 #!/data/miniconda3/envs/env1/bin/python
 
 from filelock import FileLock
