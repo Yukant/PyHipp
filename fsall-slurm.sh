@@ -1,0 +1,2 @@
+
+python -u -c "import PyHipp as pyh; import time; pyh.RPLLFP(saveLevel=1); lfall = DPT.objects.processDirs(dirs=None, exclude=['*eye*', '*mountains*'], objtype=pyh.FreqSpectrum, saveLevel=1); lfall.save(); hfall = DPT.objects.processDirs(dirs=None, exclude=['*eye*', '*mountains*'], objtype=pyh.FreqSpectrum, loadHighPass=True, pointsPerWindow=3000, saveLevel=1); hfall.save(); print(time.localtime());"
